@@ -29,4 +29,6 @@ npm version命令支持以下参数来更新版本号：
 
 # 打包
 
-# 自动发布action
+# 自动发布actions
+## npm whoami
+"npm whoami" 命令用于显示与当前身份验证的npm注册表相关联的用户名。如果您已经使用 "npm login" 命令登录了npm注册表，则运行 "npm whoami" 将显示您的用户名。如果您没有登录，则会提示您输入凭据以登录。
