@@ -32,3 +32,5 @@ npm version命令支持以下参数来更新版本号：
 # 自动发布actions
 ## npm whoami
 "npm whoami" 命令用于显示与当前身份验证的npm注册表相关联的用户名。如果您已经使用 "npm login" 命令登录了npm注册表，则运行 "npm whoami" 将显示您的用户名。如果您没有登录，则会提示您输入凭据以登录。
+## npm adduser
+npm adduser 命令用于在本地机器上进行身份验证并授权访问 npm 注册表，以便您可以使用 npm 发布和安装软件包。当您第一次使用 npm 时，或者您的身份验证凭据已过期或无效时，您需要运行 npm adduser 命令来进行身份验证。
