@@ -1,0 +1,36 @@
+{
+  "name": "basic-cli",
+  "version": "1.0.0",
+  "description": "一个基础的生成代码工具",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c && node build/index.js"
+  },
+  "bin": {
+    "lc": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.21.0",
+    "@babel/runtime-corejs3": "^7.21.0",
+    "chalk": "^5.2.0",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^9.1.4",
+    "js-beautify": "^1.14.7",
+    "ora": "^6.1.2",
+    "prettier": "^2.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.18.0"
+  }
+}
