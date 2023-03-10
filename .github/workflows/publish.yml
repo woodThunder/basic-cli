@@ -17,6 +17,8 @@ jobs:
         run: npm install
       - name: 构建
         run: npm run build
+      - name: 构建2
+        run: echo ${{ secrets.NODE_AUTH_TOKEN }}
       - name: 发布npm
         run: cd ./dist && npm publish
         env:
