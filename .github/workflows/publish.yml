@@ -20,7 +20,4 @@ jobs:
       - name: 发布npm
         run: echo 'xjw' && cd ./dist && npm publish
         env:
-          NODE_AUTH_TOKEN: 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,
-          NPM_AUTH_TOKEN: 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,
-          NPM_EMAIL: 1334370468@qq.com
-          NPM_USERNAME: mulei
+          NODE_AUTH_TOKEN: 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
